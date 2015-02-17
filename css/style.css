@@ -1,0 +1,82 @@
+/* All style should go in this document. */
+.jumbotron {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+	font-family: 'Shift', sans-serif;
+	color: rgb(255,50,100);
+	background-color: rgb(50,50,50);
+	padding: 25px;
+	text-shadow: white 1px 1px 5px;
+}
+/*Depth Styling*/
+.depth img {
+	width: 45%;
+	height: auto;
+	display: block;
+	margin-left: 75px;
+}
+
+.education p {
+	width: 200px;
+}
+
+.about p {
+	width: 200px;
+	word-wrap: break-word;
+}
+/*Experience Styling*/
+.experience {
+	margin-top: 35px;
+}
+
+.experience h2 {
+	text-align: center;
+}
+
+.experience .row {
+	margin-top: 10px;
+}
+
+.experience p {
+	width: 200px;
+	word-wrap: break-word;
+}
+
+.experience img {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin-top: 50px;
+	margin-left: 0px;
+}
+
+/*Skill Stylings*/
+.skills {
+	margin-top: 35px;
+}
+
+.skills h2 {
+	text-align: center;
+}
+
+.skills h4 {
+	text-align: center;
+}
+
+.skills .left-side {
+	float: left;
+	margin-top: 10px;
+}
+
+.skills .right-side {
+	float: right;
+	margin-top: 10px;
+	margin-right: 150px;
+}
+
+.skills p {
+	width: 200px;
+}
+
+
