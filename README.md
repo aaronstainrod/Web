@@ -1,3 +1,0 @@
-# aaronResume
-Website v1
-
