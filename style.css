@@ -1,70 +1,97 @@
 * {
-	text-align:					center;
+	text-align:							center;
+
+	font-family:						'Calibri', sans-serif;
 }
 
 body {
-	background-color:		rgb(250,250,250);
+	background-color:				rgb(210,210,210);
 }
 
+h2 {
+	color:									rgb(255,255,255);
+	text-shadow:						rgb(0,0,0) .03125em .03125em .0625em;
+}
 /*Navigation Bar****************************************************************************/
 #navigation {
-	text-align:					center;
+	text-align:							center;
 }
 
-
 #menu {
-	margin:						0;
-	padding:					0;
+	margin:								0;
+	padding:							0;
 
-	list-style-type:				none;
+	list-style-type:						none;
 }
 
 #menu li {
-	display:						inline-block;
+	display:								inline-block;
 
-	width:						11em;
-	text-align:					auto;
+	width:								11em;
+	text-align:							auto;
 
-	background-color:		rgb(245,245,245);
+	background-color:				rgb(150,150,150);
+	border-radius:						.25em;
+	box-shadow:						 .1em .25em;
 }
 
 #menu li a {
-	text-decoration:			none;
+	text-decoration:					none;
 
-	font-family:				'Calibri', sans-serif;
-	font-size:					1.25em;
-	color:							rgb(0,0,0);
+	font-family:						'Calibri', sans-serif;
+	font-size:							1.25em;
+	color:									white;
+}
+
+/*Title headers for each section**************************************************************************************/
+#title {
+	margin-bottom:					0;
+
+	background-color:				rgb(100,100,100);
+
+}
+
+#title2 {
+	margin-top:						0;
+
+	background-color:				rgb(180,180,180);
+	border-bottom-left-radius:		2em;
+	border-bottom-right-radius:		2em;
+
+	font-style:							oblique;
 }
 
 /*Main heading, includes name and possibly a small description***********************************************/
 #header {
-	margin:						.1em;
+	margin:								.1em;
 
-	text-align:					center;
+	text-align:							center;
 
-	font-family:				'Calibri', sans-serif;
-	font-size:					2em;
-	color:							rgb(50,65,150);
-	text-shadow:				rgb(0,0,0) .03125em .03125em .0625em
+	font-family:						'Calibri', sans-serif;
+	font-size:							2em;
+	color:									rgb(255,255,255);
+	text-shadow:						rgb(0,0,0) .0625em .0625em .125em;
 }
 
 /*Education**************************************************************************************/
 #education {
-	text-align:					center;
-}
+	margin-bottom:					1em;
 
-#education #school {
-	margin:						.06125em;
+	background-color:				rgb(240,240,240);
+	box-shadow:						1em .75em .25em;
+}
 
 /*Experience**************************************************************************************/
 #experience {
-	text-align:					center;
+	background-color:				rgb(240,240,240);
+	box-shadow:						1em .75em .25em;
 }
 
 /*Skills*********************************************************************************************/
 #skills {
+	background-color:				rgb(240,240,240);
+	box-shadow:						1em .75em .25em;
 }
-
 /*
 */
 
