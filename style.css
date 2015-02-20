@@ -1,3 +1,4 @@
+/*Overall style settings****************************************************************************/
 * {
 	text-align:							center;
 
@@ -5,12 +6,21 @@
 }
 
 body {
-	background-color:				rgb(210,210,210);
+	background-image:				linear-gradient(rgb(200,200,200), rgb(140,160,200));
 }
 
 h2 {
 	color:									rgb(255,255,255);
-	text-shadow:						rgb(0,0,0) .03125em .03125em .0625em;
+	text-shadow:						rgb(0,0,0) 0em .03125em .0625em;
+}
+
+p {
+	color:									rgb(0,0,0);
+}
+
+#panel {
+	margin-left:						5%;
+	margin-right:						5%;
 }
 /*Navigation Bar****************************************************************************/
 #navigation {
@@ -42,25 +52,20 @@ h2 {
 	font-size:							1.25em;
 	color:									white;
 }
-
 /*Title headers for each section**************************************************************************************/
 #title {
 	margin-bottom:					0;
 
-	background-color:				rgb(100,100,100);
-
+	background-color:				rgb(40,60,100);
 }
 
 #title2 {
 	margin-top:						0;
 
-	background-color:				rgb(180,180,180);
-	border-bottom-left-radius:		2em;
-	border-bottom-right-radius:		2em;
+	background-color:				rgb(120,140,180);
 
 	font-style:							oblique;
 }
-
 /*Main heading, includes name and possibly a small description***********************************************/
 #header {
 	margin:								.1em;
@@ -73,22 +78,100 @@ h2 {
 	text-shadow:						rgb(0,0,0) .0625em .0625em .125em;
 }
 
-/*Education**************************************************************************************/
-#education {
-	margin-bottom:					1em;
-
+/*About section**********************************************************************************************/
+#about {
 	background-color:				rgb(240,240,240);
 	box-shadow:						1em .75em .25em;
 }
-
-/*Experience**************************************************************************************/
+/*Education section**********************************************************************************************/
+#education {
+	background-color:				rgb(240,240,240);
+	box-shadow:						1em .75em .25em;
+}
+/*Experience section**********************************************************************************************/
 #experience {
 	background-color:				rgb(240,240,240);
 	box-shadow:						1em .75em .25em;
 }
 
-/*Skills*********************************************************************************************/
+#cashier {
+	margin-top:						0;
+
+	font-style:							oblique;
+	background-color:				rgb(120,140,180);
+	border-bottom-left-radius:		2em;
+}
+
+#ex-column-left {
+	float:									left;
+	width:								50%;
+
+	background-color:				rgb(240,240,240);
+	border-color:						rgb(210,210,210);
+}
+
+#math_tutor{
+	margin-top:						0;
+
+	font-style:							oblique;
+	background-color:				rgb(120,140,180);
+	border-bottom-right-radius:		2em;
+}
+
+#ex-column-right {
+	float:									right;
+	width:								50%;
+
+	background-color:				rgb(240,240,240);
+	border-color:						rgb(210,210,210);
+}
+/*Skills section**********************************************************************************************/
 #skills {
+	background-color:				rgb(240,240,240);
+	box-shadow:						1em .75em .25em;
+}
+
+img {
+	position:							relative;
+	width:								7em;
+	height:								7em;
+}
+
+#sk-column-left {
+	float:									left;
+	width:								50%;
+
+	background-color:				rgb(240,240,240);
+	border-color:						rgb(210,210,210);
+	box-shadow:						1em .75em .25em;
+}
+
+#sk-column-right {
+	float:									right;
+	width:								50%;
+
+	background-color:				rgb(240,240,240);
+	border-color:						rgb(210,210,210);
+	box-shadow:						1em .75em .25em;
+}
+
+#coding_lang {
+	margin-top:						0;
+
+	font-style:							oblique;
+	background-color:				rgb(120,140,180);
+	border-bottom-left-radius:		2em;
+}
+
+#apps {
+	margin-top:						0;
+
+	font-style:							oblique;
+	background-color:				rgb(120,140,180);
+	border-bottom-right-radius:		2em;
+
+/*Contact section**********************************************************************************************/
+#contact {
 	background-color:				rgb(240,240,240);
 	box-shadow:						1em .75em .25em;
 }
