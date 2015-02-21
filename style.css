@@ -5,73 +5,70 @@
 }
 
 body {
-	background-image:				linear-gradient(rgb(200,200,200), rgb(140,160,200));
+	background-image:					linear-gradient(rgb(200,200,200), rgb(140,160,200));
 }
 
 #panel {
-	margin-left:						5%;
-	margin-right:						5%;
+	margin-left:						15%;
+	margin-right:						15%;
 }
 
 .column-2 {
-	background-color:				rgb(240,240,240);
+	background-color:					rgb(240,240,240);
 	border-color:						rgb(210,210,210);
 }
 
 h2 {
-	color:									rgb(255,255,255);
+	color:								rgb(255,255,255);
 	text-shadow:						rgb(0,0,0) 0em .03125em .0625em;
 }
 
 p {
-	color:									rgb(0,0,0);
+	color:								rgb(0,0,0);
 }
+
 /*Headers and subheaders*************************************************************************/
 .title {
-	margin-bottom:					0;
+	margin-bottom:						0;
 
-	background-color:				rgb(40,60,100);
+	background-color:					rgb(40,60,100);
 }
 
 .title2 {
-	margin-top:						0;
+	margin-top:							0;
 
-	background-color:				rgb(120,140,180);
+	background-color:					rgb(120,140,180);
 	font-style:							oblique;
-	border-bottom-left-radius:		2em;
-	border-bottom-right-radius:		2em;
-}
+	border-bottom-left-radius:			2em;
+	border-bottom-right-radius:			2em;
+}	
 /*Navigation Bar************************************************************************************/
 #navigation {
-	text-align:							center;
-}
-
-#menu {
 	margin:								0;
 	padding:							0;
 
-	list-style-type:						none;
+	list-style-type:					none;
 }
 
-#menu li {
-	display:								inline-block;
+#navigation li {
+	display:							inline-block;
 
 	width:								11em;
 	text-align:							auto;
 
-	background-color:				rgb(150,150,150);
+	background-color:					rgb(150,150,150);
 	border-radius:						.25em;
-	box-shadow:						 .1em .25em;
+	box-shadow:							 .1em .25em;
 }
 
-#menu li a {
+#navigation li a {
 	text-decoration:					none;
 
 	font-family:						'Calibri', sans-serif;
 	font-size:							1.25em;
-	color:									white;
+	color:								rgb(255,255,255);
 }
-/*Main heading, includes name and possibly a small description***********************************************/
+/*Main heading, includes name and possibly a small descriptionz***********************************************/
 #header {
 	margin:								.1em;
 
@@ -79,45 +76,45 @@ p {
 
 	font-family:						'Calibri', sans-serif;
 	font-size:							2em;
-	color:									rgb(255,255,255);
+	color:								rgb(255,255,255);
 	text-shadow:						rgb(0,0,0) .0625em .0625em .125em;
 }
 
 /*About section**********************************************************************************************/
 #about {
-	background-color:				rgb(240,240,240);
-	box-shadow:						1em .75em .25em;
+	background-color:					rgb(240,240,240);
+	box-shadow:							1em .75em .25em;
 }
 /*Education section**********************************************************************************************/
 #education {
-	background-color:				rgb(240,240,240);
-	box-shadow:						1em .75em .25em;
+	background-color:					rgb(240,240,240);
+	box-shadow:							1em .75em .25em;
 }
 /*Experience section**********************************************************************************************/
 #experience {
-	background-color:				rgb(240,240,240);
-	box-shadow:						1em .75em .25em;
+	background-color:					rgb(240,240,240);
+	box-shadow:							1em .75em .25em;
 }
 
 #cashier {
 	margin-top:								0;
 
 	font-style:							oblique;
-	background-color:				rgb(120,140,180);
-	border-bottom-left-radius:		2em;
+	background-color:					rgb(120,140,180);
+	border-bottom-left-radius:			2em;
 }
 
 #math_tutor{
 	margin-top:								0;
 
 	font-style:							oblique;
-	background-color:				rgb(120,140,180);
-	border-bottom-right-radius:		2em;
+	background-color:					rgb(120,140,180);
+	border-bottom-right-radius:			2em;
 }
 /*Skills section**********************************************************************************************/
 #skills {
-	background-color:				rgb(240,240,240);
-	box-shadow:						1em .75em .25em;
+	background-color:					rgb(240,240,240);
+	box-shadow:							1em .75em .25em;
 }
 
 img {
@@ -127,8 +124,8 @@ img {
 }
 /*Contact section**********************************************************************************************/
 #contact {
-	background-color:				rgb(240,240,240);
-	box-shadow:						1em .75em .25em;
+	background-color:					rgb(240,240,240);
+	box-shadow:							1em .75em .25em;
 }
 /*
 */
