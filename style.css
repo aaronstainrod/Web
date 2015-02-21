@@ -1,12 +1,21 @@
 /*Overall style settings****************************************************************************/
 * {
 	text-align:							center;
-
 	font-family:						'Calibri', sans-serif;
 }
 
 body {
 	background-image:				linear-gradient(rgb(200,200,200), rgb(140,160,200));
+}
+
+#panel {
+	margin-left:						5%;
+	margin-right:						5%;
+}
+
+.column-2 {
+	background-color:				rgb(240,240,240);
+	border-color:						rgb(210,210,210);
 }
 
 h2 {
@@ -17,12 +26,22 @@ h2 {
 p {
 	color:									rgb(0,0,0);
 }
+/*Headers and subheaders*************************************************************************/
+.title {
+	margin-bottom:					0;
 
-#panel {
-	margin-left:						5%;
-	margin-right:						5%;
+	background-color:				rgb(40,60,100);
 }
-/*Navigation Bar****************************************************************************/
+
+.title2 {
+	margin-top:						0;
+
+	background-color:				rgb(120,140,180);
+	font-style:							oblique;
+	border-bottom-left-radius:		2em;
+	border-bottom-right-radius:		2em;
+}
+/*Navigation Bar************************************************************************************/
 #navigation {
 	text-align:							center;
 }
@@ -51,20 +70,6 @@ p {
 	font-family:						'Calibri', sans-serif;
 	font-size:							1.25em;
 	color:									white;
-}
-/*Title headers for each section**************************************************************************************/
-#title {
-	margin-bottom:					0;
-
-	background-color:				rgb(40,60,100);
-}
-
-#title2 {
-	margin-top:						0;
-
-	background-color:				rgb(120,140,180);
-
-	font-style:							oblique;
 }
 /*Main heading, includes name and possibly a small description***********************************************/
 #header {
@@ -95,35 +100,19 @@ p {
 }
 
 #cashier {
-	margin-top:						0;
+	margin-top:								0;
 
 	font-style:							oblique;
 	background-color:				rgb(120,140,180);
 	border-bottom-left-radius:		2em;
 }
 
-#ex-column-left {
-	float:									left;
-	width:								50%;
-
-	background-color:				rgb(240,240,240);
-	border-color:						rgb(210,210,210);
-}
-
 #math_tutor{
-	margin-top:						0;
+	margin-top:								0;
 
 	font-style:							oblique;
 	background-color:				rgb(120,140,180);
 	border-bottom-right-radius:		2em;
-}
-
-#ex-column-right {
-	float:									right;
-	width:								50%;
-
-	background-color:				rgb(240,240,240);
-	border-color:						rgb(210,210,210);
 }
 /*Skills section**********************************************************************************************/
 #skills {
@@ -136,40 +125,6 @@ img {
 	width:								7em;
 	height:								7em;
 }
-
-#sk-column-left {
-	float:									left;
-	width:								50%;
-
-	background-color:				rgb(240,240,240);
-	border-color:						rgb(210,210,210);
-	box-shadow:						1em .75em .25em;
-}
-
-#sk-column-right {
-	float:									right;
-	width:								50%;
-
-	background-color:				rgb(240,240,240);
-	border-color:						rgb(210,210,210);
-	box-shadow:						1em .75em .25em;
-}
-
-#coding_lang {
-	margin-top:						0;
-
-	font-style:							oblique;
-	background-color:				rgb(120,140,180);
-	border-bottom-left-radius:		2em;
-}
-
-#apps {
-	margin-top:						0;
-
-	font-style:							oblique;
-	background-color:				rgb(120,140,180);
-	border-bottom-right-radius:		2em;
-
 /*Contact section**********************************************************************************************/
 #contact {
 	background-color:				rgb(240,240,240);
