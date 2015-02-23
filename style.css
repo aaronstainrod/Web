@@ -68,6 +68,11 @@ p {
 	font-size:							1.25em;
 	color:								rgb(255,255,255);
 }
+
+#navigation li a:hover {
+	font-weight:						bold;
+	text-shadow:						rgb(0,0,0) .0625em .0625em .125em;
+}
 /*Main heading, includes name and possibly a small descriptionz***********************************************/
 #header {
 	margin:								.1em;
