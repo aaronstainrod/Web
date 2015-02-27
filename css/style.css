@@ -193,9 +193,21 @@ p {
 	border-bottom-left-radius:			2em;
 	border-bottom-right-radius:			2em;		
 }
+
 #apo:hover {
 	background-color:					rgb(200,20,20);
 
+}
+
+table {
+	margin:								auto auto;
+
+	width: 								50px;						
+	word-wrap:							break-word;
+}
+
+table img {
+	padding:							0 3em 0 3em;
 }
 /*Skills section**********************************************************************************************/
 #skills {
