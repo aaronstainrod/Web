@@ -1,56 +1,41 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<!--Head of website-->
+
 	<head>
 		<title>Aaron Stainrod</title>
 		<link type="text/css" href="css/style.css" rel="stylesheet" />
+<<<<<<< HEAD
+=======
+		<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="devicon/devicon.css">
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/app.js"></script>
+
+>>>>>>> master
 	</head>
 
-	<body><!--Body-->
-
-<!--Navigation Bar-->
-		<div id="navigation">
-			<ul><!--Navigation Bar-->
-				<li><a href="#education">Education</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#activities">Activities</a></li>
-				<li><a href="#skills">Skills+Contact</a></li>
+	<body>
+		<!--Header-->
+		<div id="header">
+			<h1 id="title">Aaron Stainrod</h1>
+			<ul>
+				<li><p>Versatile Programmer</p></li>
+				<li><p><a class="comm" href="mailto:aaron.stainrod@gmail.com">aaron.stainrod@gmail.com</a></p></li>
+				<li><p><a class="comm" href="https://github.com/aaronstainrod">https://github.com/aaronstainrod</a></p></li>
 			</ul>
 		</div>
-<!--Header-->
-		<div id="header">
-			<h1>Aaron Stainrod<h1>
-		</div><!--Header-->
 
-<!--Education section-->
-			<div id="education">
+		<!--Navigation Bar-->
+		<div id="nav-bar">
+			<ul><!--Navigation Bar-->
+				<li class="nav-list"><a class="nav-link" id="nav-education" href="#education">Education</a></li>
+				<li class="nav-list"><a class="nav-link" id="nav-experience" href="#experience">Experience</a></li>
+				<li class="nav-list"><a class="nav-link" id="nav-projects" href="#projects">Projects</a></li>
+				<li class="nav-list"><a class="nav-link" id="nav-skills" href="#skills">Skills</a></li>
+			</ul>
+		</div>
 
-				<h2 class="title">Education</h2>
-
-				<h4 id="school">Quinnipiac University</h4>
-				<p><em>Bachelor's Degree in Computer Science, May 2016</em></p>
-
-				<h4 id="school">Bloomfield High School</h4>
-				<p><em>High School Diploma</em></p>
-
-			</div><!--Education section-->
-
-<!--Experience section-->
-			<div id="experience">
-				<h2 class="title">Experience</h2>
-
-				<div class="subheader">
-					<h2 class="title2">Cashier</h2>
-					<p><strong><em>Fall 2012 - Present</em></strong></p>
-					<p><strong><em>Bobcat Den</em></strong></p>
-					<p><strong><em>Quinnipiac University</em></strong></p>
-					<p>Handled cash, check, credit card, and automated debit transactions</p>
-					<p>Counted cash in register drawers at the start/end of shifts</p>
-					<p>Maintained clean and orderly check out areas</p>
-				</div>
-
-			</div><!--Experience section-->
-
+<<<<<<< HEAD
 <!--Activities section-->
 			<div id="activities">
 				<h2 class="title">Activities</h2>
@@ -116,31 +101,58 @@
 					<img src="images/CSS.png">
 					<img src="images/scala.png">
 				</div>
+=======
+		<div class="panel" id="education">
+			<div class="content">
+				<h2 id>Education</h2>
+				<h4 class="subtitles">Quinnipiac University</h4>
+				<p>Bachelor's in Computer Science</p>
+				<p>May 2016</p>
+			</div>
+		</div>
+>>>>>>> master
 
-				<div class="icons">
-					<h2 class="title2">Tools</h2>
-					<img src="images/git.png">
-					<img src="images/Photoshop.png">
-					<img src="images/Illustrator.png">
-					<img src="images/audacity.png">
-				</div>
+		<!--Experience-->
+		<div class="panel" id="experience">
+			<div class="content">
+				<h2>Experience</h2>
+				<h4 class="subtitles">Independent Software</h4>
+				<p>Responsible for guiding the planning, process management, and weekly tasks of frontend development of web application utilizing HTML5, CSS, and Javascript</p>
+		 		<p>Worked on back end development of mobile app utilizing MongoDB and Meteor</p>
+		 		<p>Developed applications while utilizing Agile Methodology for software product management</p>
+	 		</div>
+	 		<div class="content">
+				<h4 class="subtitles">Bobcat Den</h4>
+				<p>Handled and counted cash, checks, credit cards, and automated debit transactions</p>
+				<p>Took on wide variety of tasks whenever necessary</p>
+			</div>
+		</div>
 
-			</div><!--Skills section-->
+		<!--Projects-->
+		<div class="panel" id="projects">
+			<div class="content">
+				<h2>Projects</h2>
+				<p>Under Renovation</p>
+			</div>
+		</div>
 
-<!--Contact section-->
-			<div id="contact"><!--Contact section-->
-				<h2 class="title">Contact</h2>
-				<ul class="title2">
-					<li><a id="comm" href="tel:+18602426611">Call</a></li>
-					<li><a id="comm" href="mailto:aaronstainrod@gmail.com">Email</a></li>
-					<li><a id="comm" href="https://github.com/aaronstainrod">Github</a></li>
-				</ul>
-				<p id="troubleshoot"><strong>Links not responding?</strong></p>
-				<p>Phone: (860)-249-9204</p>
-				<p>Email: aaron.stainrod@gmail.com</p>
-				<p>Github: https://github.com/aaronstainrod</p>
-			</div><!--Contact section-->
+		<!--Skills-->
+		<div class="panel" id="skills">
+			<div class="content">
+				<h2>Skills</h2>
+				<i class="devicon-java-plain-wordmark"></i>
+				<i class="devicon-javascript-plain"></i>
+				<i class="devicon-jquery-plain-wordmark"></i>
+				<i class="devicon-html5-plain-wordmark"></i>
+				<i class="devicon-css3-plain-wordmark"></i>
+				<i class="devicon-bootstrap-plain-wordmark"></i>
+				<i class="devicon-mongodb-plain-wordmark"></i>
+				<i class="devicon-git-plain-wordmark"></i>
+				<i class="devicon-meteor-plain-wordmark"></i>
+				<i class="devicon-nodejs-plain-wordmark"></i>
+			</div>
+		</div>
 
-	</body><!--Body-->
+	</body>
 
 </html>
