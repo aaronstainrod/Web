@@ -1,264 +1,80 @@
-
-/*Overall style settings****************************************************************************/
-* {
-	margin:								0;
-
-	text-align:							center;
-	font-family:						'Calibri', sans-serif;
+/*Styling*******************************************************************************************/
+html {
+	/*background: url(images/qu.jpg) no-repeat center center fixed;*/
+	font-family: 'Cabin', sans-serif;
 }
 
-
-body {
-	background-image:					linear-gradient(rgb(70,70,70), rgb(140,160,200));
+#name {
+	color: white;
 }
-
-.subheader:hover {
-	background-color: 					rgb(240,240,240);
-}
-
-.icons {
-	background-color:					rgb(200,200,200);
-	border-color:						rgb(210,210,210);
-}
-
-.icons:hover {
-	background-color: 					rgb(240,240,240);
-}
-
-img {
-	position:							relative;
-	width:								4em;
-	height:								4em;
-}
-
-a {
-	text-decoration: 					none;
-	list-style-type: 					none;
-	color:								rgb(0,0,0);
-}
-
-a:hover {
-	font-weight:						bold;
-	text-shadow:						rgb(255,255,255) .0625em .0625em .125em;
-}
-
-
-p {
-	color:								rgb(0,0,0);
-	margin:								.2em;
-}
-
-/*Headers and subheaders*************************************************************************/
-.title {
-	margin-top:							1em;
-
-	color:								rgb(255,255,255);
-	text-shadow:						rgb(0,0,0) 0em .03125em .0625em;
-
-	background-color:					rgb(40,60,100);
-}
-
-.title2 {
-	margin-top:							0;
-	margin-bottom: 						.5em;
-
-	color:								rgb(255,255,255);
-	text-shadow:						rgb(0,0,0) 0em .03125em .0625em;
-
-	background-color:					rgb(120,140,180);
-	border-bottom-left-radius:			2em;
-	border-bottom-right-radius:			2em;
-}	
-/*Navigation Bar************************************************************************************/
-#navigation {
-	margin:								0;
-	padding:							0;
-	list-style-type:					none;
-
-	z-index:							1;
-
-	border:								1.1em solid rgb(225,225,225);
-	background-color:					rgb(225,225,225);
-}
-
-#navigation li {
-	margin:								0;
-	padding:							0;
-	display:							inline-block;
-
-	width:								11em;
-	text-align:							auto;
-
-}
-
-#navigation li a:hover {
-	font-weight:						bold;
-	text-shadow:						rgb(255,255,255) .0625em .0625em .125em;
-}
-
-#navigation li a:nth-child(4) {
-	border-right:						1px solid rgb(0,0,0);
-}
-/*Main heading, includes name and possibly a small descriptionz***********************************************/
+/*Header**********************************************/
 #header {
-	margin:								.1em;
-
-	text-align:							center;
-
-	font-family:						'Calibri', sans-serif;
-	font-size:							2em;
-	color:								rgb(255,255,255);
-	text-shadow:						rgb(0,0,0) .0625em .0625em .125em;
-}
-/*Education section**********************************************************************************************/
-#education {
-	margin-left:						12.5%;
-	margin-right:						12.5%;
-
-	background-color:					rgb(200,200,200);
-	box-shadow:							1em .75em .25em;
+	text-align: center;
+	background-image: linear-gradient(rgb(10,55,70), rgb(140,160,200));
+	color: rgba(255,255,255,.90);
+	padding-top: 7.5em;
+	padding-bottom: 7.5em;
 }
 
-#education:hover {
-	background-color:					rgb(240,240,240);
+.comm {
+	color: white;
+	text-decoration: none;
+}
+/*Panels***********************************************/
+.panel {
+	background-color: rgba(0,0,0,0.75);
+	border-bottom: 0.10em solid rgb(200,200,200);
+	color: white;
+	width: 100%;
+	display: inline-block;
+	padding: .5em;
+	z-index: 2;
+}
+/*Navigation Bar****************************************/
+#nav-bar {
+	text-align: center;
+	border-bottom: 0.10em solid rgb(200,200,200);
+	background-color: rgb(240,240,240);
 }
 
-#education img {
-	z-index: 							2;
-}
-/*Experience section**********************************************************************************************/
-#experience {
-	margin-left:						12.5%;
-	margin-right:						12.5%;
-	margin-bottom:						.5em;
-
-	background-color:					rgb(200,200,200);
-	box-shadow:							1em .75em .25em;
+.nav-list {
+	display: inline-block;
+	margin: 1em;
+	border-left: 0.10em solid rgb(200,200,200);
+	border-right: 0.10em solid rgb(200,200,200);
 }
 
-#cashier {
-	margin-top:							0;
-
-	background-color:					rgb(120,140,180);
-	border-bottom-left-radius:			2em;
+.nav-link {
+	color: black;
+	text-decoration: none;
+	font-size: 1.5em;
+	margin: 1em;
+}
+/*Content***********************************************/
+.content {
+	padding: 0.50em;
 }
 
-#cashier:hover {
-	background-color:					rgb(240,240,240);
+.subtitles {
+	font-style: italic;
 }
 
-#math_tutor{
-	margin-top:							0;
-
-	background-color:					rgb(120,140,180);
-	border-bottom-right-radius:			2em;
+/*Icons*************************************************/
+.devicon-java-plain-wordmark, 
+.devicon-javascript-plain,
+.devicon-jquery-plain-wordmark,
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-bootstrap-plain-wordmark,
+.devicon-mongodb-plain-wordmark,
+.devicon-git-plain-wordmark,
+.devicon-meteor-plain-wordmark,
+.devicon-nodejs-plain-wordmark {
+	font-size: 4em;
+	padding: .5em;
 }
-
-#math_tutor:hover {
-	background-color:					rgb(240,240,240);
+/*Reset********************************************************************************************/
+* {
+	margin: 0;
+	padding: 0;
 }
-/*Activities section**********************************************************************************************/
-#activities {
-	margin-left:						12.5%;
-	margin-right:						12.5%;
-
-	background-color:					rgb(200,200,200);
-	box-shadow:							1em .75em .25em;
-}
-
-#a100 {
-	margin-top:							0;
-	margin-bottom: 						.5em;
-
-	color:								rgb(255,255,255);
-	text-shadow:						rgb(0,0,0) 0em .03125em .0625em;
-
-	background-color:					rgb(120,140,180);
-	border-bottom-left-radius:			2em;
-	border-bottom-right-radius:			2em;	
-}
-
-#a100:hover {
-	background-color:					rgb(200,20,20);
-}
-
-#apo {
-	margin-top:							0;
-	margin-bottom: 						.5em;
-
-	color:								rgb(255,255,255);
-	text-shadow:						rgb(0,0,0) 0em .03125em .0625em;
-
-	background-color:					rgb(120,140,180);
-	border-bottom-left-radius:			2em;
-	border-bottom-right-radius:			2em;		
-}
-
-#apo:hover {
-	background-color:					rgb(200,20,20);
-
-}
-
-table {
-	margin:								auto auto;
-
-	width: 								50px;						
-	word-wrap:							break-word;
-}
-
-table img {
-	padding:							0 3em 0 3em;
-}
-/*Skills section**********************************************************************************************/
-#skills {
-	margin-left:						12.5%;
-	margin-right:						12.5%;
-
-
-	background-color:					rgb(200,200,200);
-	box-shadow:							1em .75em .25em;
-}
-/*Contact section**********************************************************************************************/
-
-#contact {
-	margin-left:						12.5%;
-	margin-right:						12.5%;
-	margin-bottom:						3em;
-	padding:							0;
-
-	text-align:							center;
-	
-	background-color:					rgb(200,200,200);
-	box-shadow:							1em .75em .25em;
-}
-
-#contact:hover {
-	background-color:					rgb(240,240,240);
-}
-
-#contact li {
-	padding:							0;
-
-	display:							inline-block;
-}
-
-#contact li a {
-	padding:							.5em;
-
-	font-size: 							1.5em;
-}
-
-#comm {
-	font-weight:						bold;
-
-	color:								rgb(255,255,255);
-	text-shadow:						rgb(0,0,0) 0em .03125em .0625em;
-}
-
-#comm:hover {
-	color:								rgb(200,20,20);
-}
-/*
-*/
-
-
