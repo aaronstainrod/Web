@@ -2,86 +2,56 @@
 <html lang="en">
 
 	<head>
-		<title>Aaron Stainrod</title>
-		<link type="text/css" href="css/style.css" rel="stylesheet" />
-		<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="devicon/devicon.css">
-		<script src="js/jquery-1.11.3.min.js"></script>
-		<script src="js/app.js"></script>
-
+		<title>Parallax Demo</title>
+		<link type="text/css" href="style.css" rel="stylesheet" />
 	</head>
 
 	<body>
+		<main>
+
+		<!--Incomplete nav-->
+			<section id="navbar">
+				<ul id="navlist" >
+					<li class="navitem"><a class="button" href="#about">Parallax Demo</a></li>
+				</ul>
+			</section>
+
 		<!--Header-->
-		<div id="header">
-			<h1 id="title">Aaron Stainrod</h1>
-			<ul>
-				<li><p>Versatile Programmer</p></li>
-				<li><p><a class="comm" href="mailto:aaron.stainrod@gmail.com">aaron.stainrod@gmail.com</a></p></li>
-				<li><p><a class="comm" href="https://github.com/aaronstainrod">https://github.com/aaronstainrod</a></p></li>
-			</ul>
-		</div>
+			<section class="parallax" id="about">
+				<div class="content">
+					<h1 class="title">Aaron Stainrod</h1>
+					<h3>The "Pragmatic" Fanatic</h3>
+				</div>
+			</section>
 
-		<!--Navigation Bar-->
-		<div id="nav-bar">
-			<ul><!--Navigation Bar-->
-				<li class="nav-list"><a class="nav-link" id="nav-education" href="#education">Education</a></li>
-				<li class="nav-list"><a class="nav-link" id="nav-experience" href="#experience">Experience</a></li>
-				<li class="nav-list"><a class="nav-link" id="nav-projects" href="#projects">Projects</a></li>
-				<li class="nav-list"><a class="nav-link" id="nav-skills" href="#skills">Skills</a></li>
-			</ul>
-		</div>
+		<!--Transition-->
+			<section class="transition">
+				<h2 class="title">This is Parallax</h2>
+			</section>
 
-		<div class="panel" id="education">
-			<div class="content">
-				<h2 id>Education</h2>
-				<h4 class="subtitles">Quinnipiac University</h4>
-				<p>Bachelor's in Computer Science</p>
-				<p>May 2016</p>
-			</div>
-		</div>
+		<!--Education-->
+			<section class="parallax" id="experience">
+				<!--CSCC Panel-->
+				<div id="left-content">
+					<h2>Nice</h2>
+				</div>
+				<!--A100-->
+				<div id="right-content">
+					<h2>Transitions</h2>
+				</div>
+			</section>
 
-		<!--Experience-->
-		<div class="panel" id="experience">
-			<div class="content">
-				<h2>Experience</h2>
-				<h4 class="subtitles">Independent Software</h4>
-				<p>Responsible for guiding the planning, process management, and weekly tasks of frontend development of web application utilizing HTML5, CSS, and Javascript</p>
-		 		<p>Worked on back end development of mobile app utilizing MongoDB and Meteor</p>
-		 		<p>Developed applications while utilizing Agile Methodology for software product management</p>
-	 		</div>
-	 		<div class="content">
-				<h4 class="subtitles">Bobcat Den</h4>
-				<p>Handled and counted cash, checks, credit cards, and automated debit transactions</p>
-				<p>Took on wide variety of tasks whenever necessary</p>
-			</div>
-		</div>
-
-		<!--Projects-->
-		<div class="panel" id="projects">
-			<div class="content">
-				<h2>Projects</h2>
-				<p>Under Renovation</p>
-			</div>
-		</div>
+		<!--Transition-->
+			<section class="transition">
+				<h2 class="title">Cool, huh?</h2>
+			</section>
 
 		<!--Skills-->
-		<div class="panel" id="skills">
-			<div class="content">
-				<h2>Skills</h2>
-				<i class="devicon-java-plain-wordmark"></i>
-				<i class="devicon-javascript-plain"></i>
-				<i class="devicon-jquery-plain-wordmark"></i>
-				<i class="devicon-html5-plain-wordmark"></i>
-				<i class="devicon-css3-plain-wordmark"></i>
-				<i class="devicon-bootstrap-plain-wordmark"></i>
-				<i class="devicon-mongodb-plain-wordmark"></i>
-				<i class="devicon-git-plain-wordmark"></i>
-				<i class="devicon-meteor-plain-wordmark"></i>
-				<i class="devicon-nodejs-plain-wordmark"></i>
-			</div>
-		</div>
+			<section class="parallax" id="skills">
+				<div class="content">
+				</div>
+			</section>
 
+		</main>
 	</body>
-
 </html>

@@ -1,0 +1,119 @@
+/*General********************************************/
+html {
+	background-color: rgba(0,0,0,0.1);
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	margin: 0;
+}
+/*Navigation Bar****************************************/
+#navbar {
+	position: fixed;
+	margin: 0;
+	width: 100%;
+}
+
+#navlist {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	float: right;
+	width: 100%;
+
+	border-bottom: 0.10em solid rgb(200,200,200);
+	background-color: rgba(0,0,0,0.8);
+}
+
+.navitem {
+	text-align: center;
+	display: inline-block;
+	margin: 1em 1em;
+
+	border-left: 0.10em solid rgb(200,200,200);
+	border-right: 0.10em solid rgb(200,200,200);
+}
+
+.button {
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	margin: 1em;
+}
+/******************************************************/
+/*Parallax = locations where each resume content goes*/
+.parallax {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	height: 43.25em;
+	width: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+/*Parallax Views***********************/
+#about {
+	background-image: url("nightview.jpg");
+}
+
+#about:last-child {
+	margin: 2em 0;
+}
+
+#experience {	
+	background-image: url("lakeshore.jpg");
+}
+
+#left-content {
+	width: 50%;
+	float: left;
+	text-align: center;
+
+	background-color: rgba(50,50,60,0.3);
+	border-bottom: .025em solid rgba(50,50,50,1);
+	color: white;
+}
+
+#right-content {
+	width: 50%;
+	float: right;
+	text-align: center;
+
+	background-color: rgba(50,50,50,0.3);
+	border-bottom: .025em solid rgba(50,50,50,1);
+	color: white;
+}
+
+#skills {
+	background-image: url("el_capitan.jpg");
+}
+/*Transitional Panels***********************************************/
+.transition {
+	width: 100%;
+
+	background-color: rgba(255,255,255,1);
+
+	border-top:  0.10em solid rgba(50,50,50,1);
+	border-bottom: 0.10em solid rgba(50,50,50,1);
+}
+
+/*Text Decor******************************************************/
+.title {
+	text-align: center;
+}
+
+.content {
+	margin-top: 10em;
+	margin-bottom: 10em;
+
+	text-align: center;
+}
